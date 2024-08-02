@@ -1,0 +1,322 @@
+{
+    "quizzes": [
+        {
+            "title": "HTML",
+            "color": "#FFF1E9",
+            "icon": "./assets/icon-html.svg",
+            "questions": [
+                {
+                    "question": "Inputga malumot kiritib bo'lmaydigan qilish uchun qaysi atributdan foydalanamiz?",
+                    "options": ["disabled", "required", "default", "type"],
+                    "answer": "disabled"
+                },
+                {
+                    "question": "Quyidagilardan qaysi biri formatlash tegi emas?",
+                    "options": ["span", "strong", "mark", "i"],
+                    "answer": "span"
+                },
+                {
+                    "question": "Audio va video elementlarini ovozsiz qilish imkoniyatini qaysi atribut qo'shib beradi?",
+                    "options": ["retry", "autoplay", "loop", "mute"],
+                    "answer": "mute"
+                },
+                {
+                    "question": "Quyidagilardan qaysi biri inline element emas?",
+                    "options": ["sup", "b", "p", "sub"],
+                    "answer": "p"
+                },
+                {
+                    "question": "Audio va video elementlarini avtomatik ijro qilish imkoniyatini qaysi atribut qo'shib beradi?",
+                    "options": ["retry", "autoplay", "loop", "mute"],
+                    "answer": "autoplay"
+                },
+                {
+                    "question": "HTMLda qaysi element sahifaning boshqa sahifalarga yoki sahifa ichidagi qismlarga havola qiladigan qism hisoblanadi?",
+                    "options": ["section", "div", "a", "nav"],
+                    "answer": "nav"
+                },
+                {
+                    "question": "HTMLda matn va paragraflar qaysi teg bilan beriladi?",
+                    "options": ["h1-h6", "p", "span", "div"],
+                    "answer": "p"
+                },
+                {
+                    "question": "Strong, b teglarining qanday farqi bor?",
+                    "options": [
+                        "Hech qanday farqi yo'q",
+                        "Strong matnning qolgan qismiga qaraganda mos ravishda katta ahamiyatga ega yoki ko'proq ahamiyatga ega va urg'uli ekanligini bildiradi. Bu semantik ma'noga ega",
+                        "Ikkalasi boshqa-boshqa element",
+                        "b matnning qolgan qismiga qaraganda mos ravishda katta ahamiyatga ega yoki ko'proq ahamiyatga ega va urg'uli ekanligini bildiradi. Bu semantik ma'noga ega"
+                    ],
+                    "answer": "Strong matnning qolgan qismiga qaraganda mos ravishda katta ahamiyatga ega yoki ko'proq ahamiyatga ega va urg'uli ekanligini bildiradi. Bu semantik ma'noga ega"
+                },
+                {
+                    "question": "<br> tegi nima qiladi?",
+                    "options": [
+                        "U matnni ikki qismga ajratadi.",
+                        "U qalin matn yaratadi.",
+                        "U qator uzilishini qo'shadi.",
+                        "Jadvalga yangi qator qo'shadi."
+                    ],
+                    "answer": "U qator uzilishini qo'shadi."
+                },
+                {
+                    "question": "HTMLda `fieldset` tegi nima qiladi?",
+                    "options": [
+                        "U shakldagi bog'liq ma'lumotlarni guruhlash uchun ishlatiladi.",
+                        "U maydonni belgilangan o'lchamga o'rnatadi.",
+                        "Shakl ichidagi maydonlarni avtomatik ravishda tasdiqlaydi.",
+                        "U shakldagi maydonlarni yashiradi."
+                    ],
+                    "answer": "U shakldagi bog'liq ma'lumotlarni guruhlash uchun ishlatiladi."
+                }
+            ]
+        },
+        {
+            "title": "CSS",
+            "color": "#E0FDEF",
+            "icon": "./assets/icon-css.svg",
+            "questions": [
+                {
+                    "question": "Quyidagilardan qaysi biri pseudoelement hisoblanadi?",
+                    "options": ["before", "shrink", "order", "active"],
+                    "answer": "before"
+                },
+                {
+                    "question": "RGB ranglarindagi birinchi qiymat qaysi rangga javob beradi?",
+                    "options": ["yashil", "sariq", "qizil", "ko'k"],
+                    "answer": "qizil"
+                },
+                {
+                    "question": "Tepa va pastda birin-ketin joylashgan ikkita element joylashgan, birinchi elementga past tarafdan 40px margin berilgan, ikkinchi elementga tepadan 30px berilgan. Birinchi va ikkinchi element o'rtasida qancha margin bo'ladi?",
+                    "options": ["40px", "30px", "70px", "10px"],
+                    "answer": "40px"
+                },
+                {
+                    "question": "Quyidagilardan qaysi biri font-family emas?",
+                    "options": ["serif", "cursive", "decorative", "fantasy"],
+                    "answer": "decorative"
+                },
+                {
+                    "question": "Qaysi css xossasi yordamida harflar orasini ochishimiz mumkin?",
+                    "options": [
+                        "word-spacing",
+                        "letter-spacing",
+                        "font-weight",
+                        "line-height"
+                    ],
+                    "answer": "letter-spacing"
+                },
+                {
+                    "question": "Filterning qaysi hossasi yordamida berilgan elementga yorug'lik qo'shishimiz mumkin?",
+                    "options": ["grayscale", "blur", "brightness", "contrast"],
+                    "answer": "brightness"
+                },
+                {
+                    "question": "Jadvalni toq qatorlarini stilini berishimiz uchun nima qilishimiz kerak",
+                    "options": [
+                        ":nth-child(odd)",
+                        ":table(odd)",
+                        ":nth-child(even)",
+                        ":table(even)"
+                    ],
+                    "answer": ":nth-child(odd)"
+                },
+                {
+                    "question": "padding: 25px 75px 100px; O'ng tarafdan qancha padding mavjud.'?",
+                    "options": ["25px", "100px", "50px", "75px"],
+                    "answer": "75px"
+                },
+                {
+                    "question": "Qaysi css xossasi yordamida elementga balandlik berishimiz mumkin?",
+                    "options": ["height", "width", "decoration", "line-height"],
+                    "answer": "height"
+                },
+                {
+                    "question": "CSS-dagi z-index xususiyatidan maqsad nima?",
+                    "options": [
+                        "Elementlar sonini hisoblash uchun",
+                        "Elementning kattalashtirish darajasini belgilash uchun",
+                        "Elementning stek tartibini belgilash uchun",
+                        "Masshtablash effektini yaratish uchun"
+                    ],
+                    "answer": "Elementning stek tartibini belgilash uchun"
+                }
+            ]
+        },
+        {
+            "title": "JavaScript",
+            "color": "#EBF0FF",
+            "icon": "./assets/icon-javascript.svg",
+            "questions": [
+                {
+                    "question": "console.log(Math.abs(5))",
+                    "options": ["5", "-5", "25", "-25"],
+                    "answer": "5"
+                },
+                {
+                    "question": "Variablesga qanday qiymat saqlangan: let malumot = true",
+                    "options": ["string", "boolean", "array", "undefined"],
+                    "answer": "boolean"
+                },
+                {
+                    "question": "Variablesga qanday qiymat saqlangan: let malumot = 777",
+                    "options": ["string", "boolean", "array", "number"],
+                    "answer": "number"
+                },
+                {
+                    "question": "Son - qanday data type hisoblanadi",
+                    "options": ["string", "boolean", "array", "number"],
+                    "answer": "number"
+                },
+                {
+                    "question": "(null - 0) + '0'",
+                    "options": ["'null0'", "'00'", "0", "NaN"],
+                    "answer": "'00'"
+                },
+                {
+                    "question": "Qanday qilib elementdan bitta oldingi elementni tanlab olish mumkin?",
+                    "options": [
+                        "ele.previousElement",
+                        "ele.getpreviousElement",
+                        "ele.previousElementSibling",
+                        "ele.prevElement"
+                    ],
+                    "answer": "ele.previousElementSibling"
+                },
+                {
+                    "question": "Agar querySelectorAll bilan tanlangan element topilmasa, u nima qaytaradi?",
+                    "options": [
+                        "undefined",
+                        "null",
+                        "bo'sh NodeList",
+                        "bo'sh HTMLCollection"
+                    ],
+                    "answer": " bo'sh NodeList"
+                },
+                {
+                    "question": "Qanday qilib elementni ota elementini tanlab olish mumkin?",
+                    "options": [
+                        "ele.parentContainer",
+                        "ele.getParent",
+                        "ele.parent",
+                        "ele.parentElement"
+                    ],
+                    "answer": "ele.parentElement"
+                },
+                {
+                    "question": "Qaysi holatda id='element' to'g'ri tanlab olingan?",
+                    "options": [
+                        "document.getElementById('#element')",
+                        "document.getElementById('element')",
+                        "document.querySelector('element')",
+                        "document.getElementsByTagName('#element')"
+                    ],
+                    "answer": "document.getElementById('element')"
+                },
+                {
+                    "question": "setTimeout(()=>{console.log(1);}, 0)console.log(2);console.log(3);console.log(4);",
+                    "options": ["1,2,3,4", "2,3,4,1", "2,1,3,4", "2,4,1,3"],
+                    "answer": "2,3,4,1"
+                }
+            ]
+        },
+        {
+            "title": "Accessibility",
+            "color": "#F6E7FF",
+            "icon": "./assets/icon-accessibility.svg",
+            "questions": [
+                {
+                    "question": "WCAG nimani anglatadi?",
+                    "options": [
+                        "Veb-kontentga kirish bo'yicha ko'rsatmalar",
+                        "Veb muvofiqligi bo'yicha qo'llanma",
+                        "Veb-kontentga kirish maqsadlari",
+                        "Veb-saytga muvofiqlik va foydalanish imkoniyati bo'yicha ko'rsatmalar"
+                    ],
+                    "answer": "Veb-kontentga kirish bo'yicha ko'rsatmalar"
+                },
+                {
+                    "question": "Ekranni o'qish foydalanuvchilari uchun tasvirlar uchun muqobil matnni taqdim etish uchun qaysi element ishlatiladi?",
+                    "options": [
+                        "<alt>",
+                        "<figcaption>",
+                        "<description>",
+                        "<img alt='description'>"
+                    ],
+                    "answer": "<img alt='description'>"
+                },
+                {
+                    "question": "ARIA veb-ishlab chiqishda nimani anglatadi?",
+                    "options": [
+                        "Kirish mumkin bo'lgan boy Internet ilovalari",
+                        "Kengaytirilgan javob beruvchi Internet yordami",
+                        "Kirish mumkin bo'lgan sezgir Internet ilovalari",
+                        "Avtomatlashtirilgan javob beruvchi Internet harakatlari"
+                    ],
+                    "answer": "Kirish mumkin bo'lgan boy Internet ilovalari"
+                },
+                {
+                    "question": "JavScript dasturlash tili nechani yili tashkil topgan?",
+                    "options": ["1995", "1996", "1998", "1999"],
+                    "answer": "1995"
+                },
+                {
+                    "question": "JavaScript dasturlash tilini kim tomonidan yartilgan",
+                    "options": [
+                        "Ellon Musk",
+                        "Stev Jobs",
+                        "Mark",
+                        "Brendan Eich"
+                    ],
+                    "answer": "Brendan Eich"
+                },
+                {
+                    "question": "Qidiruv tizimi nechanichi yili  Google nomi bilan internetga kirdi. ",
+                    "options": [
+                        "1997-yil 15-sentyabrida",
+                        "1996-yil 5-sentyabrida",
+                        "1997-yil 25-sentyabrida",
+                        "1999-yil 15-sentyabrida"
+                    ],
+                    "answer": "1997-yil 15-sentyabrida"
+                },
+                {
+                    "question": "Google Kompaniyasi qasyi davlatda joylashkan",
+                    "options": ["Angiliya", "Russia", "USA", "Xitoy"],
+                    "answer": "USA"
+                },
+                {
+                    "question": "Qaysi yo'riqnoma kontentga klaviatura va sichqoncha orqali kirishni ta'minlaydi?",
+                    "options": [
+                        "Klaviaturadan foydalanish mumkin",
+                        "Sichqoncha mustaqilligi",
+                        "Qurilmaning mustaqilligi",
+                        "Ishlaydigan boshqaruv elementlari"
+                    ],
+                    "answer": "Klaviaturadan foydalanish mumkin"
+                },
+                {
+                    "question": "Vebga kirish imkoniyatida navigatsiyani o'tkazib yuborish havolalarining roli qanday?",
+                    "options": [
+                        "Asosiy tarkibga birlamchi navigatsiyadan oʻtish uchun",
+                        "Veb-saytning turli bo'limlariga yorliqlarni taqdim etish",
+                        "Foydalanuvchilarga reklama kabi keraksiz bo'limlarni o'tkazib yuborishga yordam berish uchun",
+                        "Navigatsiyadagi buzilgan havolalarni chetlab o'tish uchun"
+                    ],
+                    "answer": "Asosiy tarkibga birlamchi navigatsiyadan oʻtish uchun"
+                },
+                {
+                    "question": "Ushbu vositalardan qaysi biri veb-saytning mavjudligini tekshirishga yordam beradi?",
+                    "options": [
+                        "W3C Validator",
+                        "Google Lighthouse",
+                        "CSS Validator",
+                        "JavaScript Console"
+                    ],
+                    "answer": "Google Lighthouse"
+                }
+            ]
+        }
+    ]
+}
